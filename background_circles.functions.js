@@ -15,6 +15,7 @@ var Circle = function(x, y)
 
    this.display = () =>
    {
+      stroke(255, 255, 255);
       ellipse(this.pos.x, this.pos.y, CIRCLE_RADIUS);
    }
 }
